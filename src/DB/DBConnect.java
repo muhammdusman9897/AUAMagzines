@@ -16,6 +16,7 @@ public class DBConnect {
         Connection con;
 Statement s;
 ResultSet r;
+int a;
 public void dbconnect(){
     try{
     Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
